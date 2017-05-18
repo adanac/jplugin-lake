@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.haiziwang.study.firstapp.mapper.ISecondAppMapper">
+
+	<select id="queryEmp"  resultType="com.haiziwang.platform.study.lake.api.dbo.Emp">
+		select * from m_emp
+	</select> 
+	<insert id="addEmp" parameterType="com.haiziwang.platform.study.lake.api.dbo.Emp">
+		insert into	m_emp
+			(login_pwd,phone,remark,real_name,status,create_time)
+		values
+			(#{loginPwd},#{phone},#{remark},#{realName},#{status},now())
+	</insert>
+</mapper>

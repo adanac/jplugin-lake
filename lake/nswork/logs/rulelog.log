@@ -1,0 +1,5 @@
+2016-09-29 19:37:21,870 -user= thread=esf_http_pool_thread-1 -RuleInvoked:queryAllCustomer begin=2016.09.29-19:37:21 end=2016.09.29-19:37:21 dural=548 result=OK 
+2016-09-29 19:54:31,898 -user= thread=esf_http_pool_thread-1 -RuleInvoked:queryAllCustomer begin=2016.09.29-19:54:31 end=2016.09.29-19:54:31 dural=24 result=OK 
+2016-09-29 19:54:38,354 -user= thread=esf_http_pool_thread-1 -RuleInvoked:queryAllCustomer begin=2016.09.29-19:54:38 end=2016.09.29-19:54:38 dural=26 result=OK 
+2016-09-29 19:54:43,085 -user= thread=esf_http_pool_thread-1 -RuleInvoked:queryAllCustomer begin=2016.09.29-19:54:43 end=2016.09.29-19:54:43 dural=24 result=OK 
+2016-09-29 19:54:48,855 -user= thread=esf_http_pool_thread-1 -RuleInvoked:queryAllCustomer begin=2016.09.29-19:54:48 end=2016.09.29-19:54:48 dural=24 result=OK 

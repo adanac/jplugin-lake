@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.haiziwang.platform.base</groupId>
+		<artifactId>base-pom</artifactId>
+		<version>1.5.1-SNAPSHOT</version>
+	</parent>
+	<groupId>org.adanac.study</groupId>
+	<artifactId>lake-pom</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>lake-pom</name>
+	<packaging>pom</packaging>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.haiziwang.platform</groupId>
+			<artifactId>esf-register</artifactId>
+			<version>1.5.1.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.haiziwang.platform</groupId>
+			<artifactId>esf-client4cpp</artifactId>
+			<version>1.5.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.haiziwang.platform.kmonitor</groupId>
+			<artifactId>kmonitor-risk-client</artifactId>
+			<version>1.5.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	<modules>
+		<module>../lake-api</module>
+		<module>../lake</module>
+		<module>../lake-web</module>
+	</modules>
+</project>
